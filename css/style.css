@@ -1,0 +1,32 @@
+   /* TOPTORQUE TOOLS STYLE SHEET */
+
+   /* COLOURS FOR EASY READABILITY*/
+:root {
+  --navy: #1c2430;
+  --yellow: #f2a900;
+  --light: #f5f7fa;
+  --text: #1c2430;
+}
+
+/* BASE TEXT AND FONTS*/
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text);
+  background-color: #ffffff;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  color: var(--navy);
+}
+
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.4rem; margin-top: 1.5rem; }
+
+/* IMAGES DONT GET BIGGER THAN THE CONTAINER */
+img {
+  max-width: 100%;
+  height: auto;
+}
