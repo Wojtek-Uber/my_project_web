@@ -58,6 +58,26 @@ img {
   color: var(--yellow);
 }
 
+/* HOME PAGE HERO CUSTUMIZATION */
+.hero {
+  background-color: var(--light);
+  padding: 2rem 0;
+}
+
+/* CUSTOM BUTTON ON YELLOW BACKGROUND FOR GOOD READABILITY */
+.btn-shop {
+  background-color: var(--yellow);
+  color: var(--navy);
+  font-weight: 700;
+  border: none;
+}
+
+.btn-shop:hover,
+.btn-shop:focus {
+  background-color: var(--navy);
+  color: #ffffff;
+}
+
 /* FOOTER */
 .site-footer {
   background-color: var(--navy);
