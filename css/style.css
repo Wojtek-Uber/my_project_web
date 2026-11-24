@@ -82,6 +82,22 @@ img {
     border-top: 4px solid var(--yellow);
 }
 
+/* PRODUCT TABLE | ADJUSTED TO MOBILE VIEW */
+.product-table {
+    font-size: 1rem;
+}
+
+.product-table caption {
+    caption-side: top;
+    color: var(--navy);
+    font-weight: 550;
+}
+
+.product-table thead th {
+    background-color: var(--navy);
+    color:#ffffff; 
+}
+
 /* FOOTER */
 .site-footer {
   background-color: var(--navy);
