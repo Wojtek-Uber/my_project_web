@@ -78,6 +78,10 @@ img {
   color: #ffffff;
 }
 
+.feature-card{
+    border-top: 4px solid var(--yellow);
+}
+
 /* FOOTER */
 .site-footer {
   background-color: var(--navy);
