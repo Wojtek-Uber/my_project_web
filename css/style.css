@@ -30,3 +30,47 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
+/* BANNER AREA AND NAVIGATION AREA */
+.site-nav {
+  background-color: var(--navy);
+  border-bottom: 4px solid var(--yellow);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: var(--yellow) !important;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.site-nav .nav-link {
+  color: #ffffff;
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus,
+.site-nav .nav-link.active {
+  color: var(--yellow);
+}
+
+/* FOOTER */
+.site-footer {
+  background-color: var(--navy);
+  color: #ffffff;
+  padding: 2rem 0 1rem;
+  margin-top: 2rem;
+}
+
+.site-footer h2 {
+  color: var(--yellow);
+  margin-top: 0;
+}
+
+.site-footer a {
+  color: var(--yellow);
+}
