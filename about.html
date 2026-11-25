@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <!-- META TAGS CHARACTERS MOBILE VIEW  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="About TopTorque Tools, a Multiple Genarational Family Owned Business.">
+    <meta name="keywords" content="Car tools, Garage tools, Torque wrench, Socket set, Trolley jack">
+    <meta name="author" content="Wojciech">
+    <title>About | TopTorque Tools</title>
+
+    <!-- BOOTSTRAP  VERSION 5.0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet">
+
+     <!-- MY EXTERNAL STYLESHEET -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- LOGO AREA AND MAIN NAVIGATION (COPY TO ALL PAGES) -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark site-nav">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="images/logo.svg" alt="TopTorque Tools logo, a wrench on a circle" class="logo me-2">
+          TopTorque Tools
+        </a>
+
+        <!-- HAMBURGER MENU FOR MOBILE -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <!-- DELETED ACTIVE FROM NAV-LINK ACTIVE AND ARIA-CURRENT="PAGE" -->
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <!-- ADDED NAV-LINK ACTIVE AND ARIA-CURRENT=PAGE -->
+            <li class="nav-item"><a class="nav-link " href="products.html">Products</a></li>
+            <li class="nav-item"><a class="nav-link active"  aria-current="page" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ADDED NEW MAIN LIST DELETED OLD MAIN -->
+  <main class="container py-5">
+    <h1>Tool Gallery</h1>
+    <p>Hover over the picture to get a better look!</p>
+    
+    <!-- 1 PICTURE PER ROW ON MOBILE 3 ON DESKTOP -->
+    <div class="row g-4 gallery">
+      <div class="col-12 col-sm-6 col-lg-4">
+        <figure>
+          <img src="images/wrench.svg" alt="metal hand tool | Wrench" class="img-fluid">
+          <figcaption>Hand Wrench</figcaption>
+        </figure>
+      </div>
+      <div class="col-12 col-sm6 col-lg-4">
+        <figure>
+          <img src="images/sockets.svg" alt="Impact-Sockets">
+          <figcaption>Impact-Socket Set</figcaption>
+        </figure>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <figure>
+          <img src="images/jack.svg" alt="Car Jack" class="img-sluid">
+          <figcaption>Car Jack</figcaption>
+        </figure>
+      </div>
+      <!-- TOOLBOX IMAGE IS DIFFRENT BECAUSE IT WAS DONE WITH DIFFRENT AI BEFORE I USED FREE CREDITS -->
+       <!-- CHANGE TOOLBOX TO SAME TYPE WHEN AI HAS FREE CREDITS -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <figure>
+        <img src="images/toolbox.svg" alt="Metal Toolbox" class="img-fluid">
+        <figcaption>Metal Toolbox (currently out of stock)</figcaption>
+        </figure>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <figure>
+          <img src="images/electric-wrench.svg" alt="Electric-wrench" class="img-fluid">
+          <figcaption>Electric-Wrench</figcaption>
+        </figure>
+      </div>
+    </div>
+  </main>
+
+    <!-- FOOTER WITH CONTACT EMAIL -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h2 class="h5">Contact us Here</h2>
+
+        <!-- EMAIL HYPERLINK -->
+          <p>Email: <a href="info@toptorquetools.example">info@toptorquetools.example</a></p>
+          <p>Unit 16, Garage St. Open 7 days a week <br> 7:30 to 20:00.</p>
+        </div>
+        <div class="col-12 col-md-6 text-md-end">
+          <p>&copy; 2026 TopTorque Tools LTD. Student Project.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <!-- BOOTSTRAP USED FOR THE COLLAPSING MENU ON MOBILE -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
