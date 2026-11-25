@@ -98,6 +98,27 @@ img {
     color:#ffffff; 
 }
 
+/* GALLERY FEATURE IMAGE ZOOMS BUT NOT PAST ITS BORDER */
+.gallery figure{
+  overflow: hidden;
+  border-radius: 8px;
+  margin:0;
+  background-color: var(--navy);
+}
+
+.gallery img{
+  display:block;
+  transition: transform 0.5s ease;
+}
+
+.gallery figure:hover img,
+.gallery figure:focus-within img{
+  transform: scale(1.25);
+}
+.gallery figcaption {
+  color: #ffffff;
+  padding: 0.5rem 0.75rem;
+}
 /* FOOTER */
 .site-footer {
   background-color: var(--navy);
