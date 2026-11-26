@@ -7,7 +7,7 @@
 
 2.  **hosted-page link**
 
-
+  https://wojtek-uber.github.io/my_project_web/
 
 ## Table of Content
 
