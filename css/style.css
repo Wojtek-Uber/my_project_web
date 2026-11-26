@@ -98,7 +98,7 @@ img {
     color:#ffffff; 
 }
 
-/* GALLERY FEATURE IMAGE ZOOMS BUT NOT PAST ITS BORDER */
+/* GALLERY FEATURE IMAGE ZOOMS BUT NOT PAST ITS BORDER | BONUS FEATURE CSS-TRANSITIONING*/
 .gallery figure{
   overflow: hidden;
   border-radius: 8px;
